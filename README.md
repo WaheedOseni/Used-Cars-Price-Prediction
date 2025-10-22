@@ -131,13 +131,6 @@ Use trendlines to observe relationships between features and price.
 
 Perform Correlation Analysis
 
-Use the formula:
-
-=CORREL(array1, array2)
-
-
-Example: =CORREL(B2:B100, F2:F100) (to find correlation between Mileage and Price).
-
 Run Regression Analysis
 
 Enable Data Analysis ToolPak:
