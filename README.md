@@ -45,54 +45,61 @@ Found that Power and Engine had strong positive correlations with Price.
 
 Kilometers Driven showed a negative correlation — higher usage reduced price.
 
-#### 4. Regression Analysis (Prediction Model)
+### 📈 Regression Analysis Results
 
-Used Excel’s Data Analysis ToolPak → Regression.
+After cleaning the dataset, a Multiple Linear Regression was run using Price as the dependent variable, and the following independent variables:
+Kilometers_Driven, Mileage, Engine, Power, and Seats.
 
-Set Price as the dependent variable (Y).
+### 🔢 Regression Output Summary
+Metric	Value
+R² (Model Accuracy)	0.578
+Mean Squared Error (MSE)	44.28
+Intercept	-14.76
+### 📊 Coefficients and Interpretation
+Variable	Coefficient	Effect on Price
+Kilometers_Driven	-0.000002	Each additional kilometer slightly reduces the price.
+Mileage	+0.2728	Higher mileage increases car value.
+Engine	+0.000833	Larger engine capacity increases price.
+Power	+0.1667	Strongest positive influence on car price.
+Seats	-0.1312	Minor negative impact; not statistically significant.
+### 🧠 Interpretation
 
-Set Kilometers_Driven, Mileage, Engine, Power, and Seats as independent variables (X).
+The R² = 0.578 means the model explains about 57.8% of price variability.
 
-Interpreted the coefficients and R² value to measure prediction accuracy.
+Power and Engine size are the most important predictors.
 
-## 📊 Key Insights
+Kilometers Driven reduces resale value (older cars depreciate).
 
-Power (bhp) has the strongest positive influence on car price.
+Mileage positively influences price due to fuel efficiency.
 
-Kilometers Driven negatively affects price — older, high-mileage cars sell for less.
+Seats have minimal predictive power.
 
-Engine size and number of seats have moderate influence.
+### 🎯 Conclusion
 
-Mileage has minimal or inconsistent impact across different brands or models.
+This project demonstrates how Microsoft Excel and basic statistical tools can help understand key pricing factors for used cars.
+Regression analysis shows that Power, Engine, and Mileage are the main contributors to price variation, while usage (Kilometers Driven) negatively affects value.
 
-## 🎯 Conclusion
+### 🧰 Tools & Skills Used
+#### 🪟 Microsoft Excel
 
-This analysis successfully demonstrates how Excel can be used for data-driven decision-making in the automobile market.
-By applying regression analysis, we can estimate car prices with reasonable accuracy and identify the most important pricing factors.
-
-## 🧰 Tools & Skills Used
-
-Microsoft Excel
-
-Data Cleaning
+Data Cleaning & Validation
 
 Pivot Tables
 
-Charts & Visualizations
+Charts & Dashboards
 
 Correlation Analysis
 
 Regression (Data Analysis ToolPak)
 
-Analytical Skills
+#### 🧠 Analytical Skills
 
-Data interpretation
+Data Interpretation
 
-Business insight generation
+Insight Generation
 
-Report creation
-
-📁 Project Deliverables
+Visualization & Reporting
+## 📁 Project Deliverables
 
 Excel dataset (raw and cleaned)
 
