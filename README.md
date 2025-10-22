@@ -1,4 +1,7 @@
 # Used Car Price Prediction (Excel Data Analysis Project)
+
+<img width="551" height="310" alt="Image" src="https://github.com/user-attachments/assets/6cdb5032-9942-4bbb-be54-fd6a354a5e31" />
+
 ## 📘 Project Overview
 
 This project focuses on analyzing and predicting the selling prices of used cars using Microsoft Excel.
